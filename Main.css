@@ -53,3 +53,6 @@
 			#footer-index {position: absolute;
 				bottom: 20px;
 			}
+			.carousel-inner img {
+				max-height: 10%;
+				}
