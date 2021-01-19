@@ -7,20 +7,20 @@
 				background-color: #555;
 				padding: 10px;
 			}
-			
+
 			.navigation a {
 				color: #eee;
 				text-decoration: none;
 				margin-right: 30px;
 			}
-			
+
 			.navigation a:hover {
 				color: #F90;
 			}
-			
+
 			.orangeboy{
 				color: #F90;
-				border: 5px #111111 solid;			
+				border: 5px #111111 solid;
 				padding: 25px;
 				margin-top: 50px;
 				margin-bottom: 100px;
@@ -29,7 +29,7 @@
 			#specialdude{
 				font-size:130px;
 				}
-				
+
 			#footer {
 				position: fixed;
 				bottom: 0px;
@@ -38,11 +38,11 @@
 				height: 30px;
 				background-color: #555;
 			}
-			
-			body { 
+
+			body {
 				background-color: #8c8c8c;
 				color: #000000;
-				margin-top: 2.6%;
+				margin-top: 3.6%;
 			}
 
 			#userMessage {
@@ -53,6 +53,20 @@
 			#footer-index {position: absolute;
 				bottom: 20px;
 			}
-			.carousel-inner img {
-				max-height: 10%;
-				}
+
+			.carousel-inner {
+				text-align: center;
+				background-color: #fff;
+			}
+			.carousel .carousel-item {
+  			height: auto;
+				text-align: center;
+			}
+
+			.carousel-item img {
+    		position: relative;
+    		top: 0;
+    		left: 33%;
+				max-height: 400px;
+				max-width: 33%;
+			}
