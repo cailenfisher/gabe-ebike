@@ -27,6 +27,14 @@
 		</div>
 		<div class="row">
 			<div class="col-2 offset-md-1">
+				<label for="nameInput">Enter your Email</label>
+			</div>
+			<div class="col-2">
+				<input type="text" id="emailInput" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-2 offset-md-1">
 				<button id="myButton" class="btn btn-warning">
 					Send
 				</button>
@@ -53,12 +61,14 @@
 		var clearElement = document.getElementById("clearbutton")
 
 		var textElement = document.getElementById("nameInput")
+		var emailElement = document.getElementById("emailInput")
 		var messageElement = document.getElementById("userMessage")
 
 		var doStuff = function (action) {
 			var userInput = textElement.value;
+			var emailInput = emailElement.value;
 			// alert ("Hello " + userInput)
-			userMessage.innerHTML = "Thank you " + userInput + "! Someone will in contact soon."
+			userMessage.innerHTML = "Thank you " + userInput + "! Someone will be in contact soon at " + emailInput + "."
 		}
 		var clearstuff = function (action) {
 			userMessage.innerHTML = " "
