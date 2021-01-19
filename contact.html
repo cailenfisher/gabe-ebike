@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>
@@ -16,7 +16,7 @@
 			<a href="Log.html">Logs</a>
 			<a href="Source.html">Sources</a>
 		</div>
-		
+
 		<div class="row">
 			<div class="col-2 offset-md-1">
 				<label for="nameInput">Enter your name</label>
@@ -36,10 +36,13 @@
 					Clear
 				</button>
 			</div>
-		</div>	
-	
-		<div id="userMessage"></div>
-	
+		</div>
+
+		<div class="row">
+			<div class="col-4 offset-md-1">
+				<div id="userMessage"></div>
+			</div>
+		</div>
 
     	<div id="footer">&copy; 2020 E-bike company</div>
 
@@ -58,7 +61,7 @@
 			userMessage.innerHTML = "Hello " + userInput
 		}
 		var clearstuff = function (action) {
-			userMessage.innerHTML = " " 
+			userMessage.innerHTML = " "
 			textElement.value= " "
 		}
 

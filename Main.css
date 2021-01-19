@@ -30,6 +30,16 @@
 				font-size:130px;
 				}
 
+				#introText {
+					margin-top: -100px;
+					font-size: x-large;
+					padding: 20px;
+				}
+
+				#carouselExampleControls {
+					margin-bottom: 100px;
+				}
+
 			#footer {
 				position: fixed;
 				bottom: 0px;
